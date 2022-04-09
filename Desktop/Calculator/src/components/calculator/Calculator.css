@@ -1,0 +1,169 @@
+.calculator_bg {
+    height: 730px;
+    background-color: #f5f5f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    /* background: #fff;
+    padding: 50px 50px;
+    border-radius: 5px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 5px 40px; */
+    margin-right: 100px;
+}
+
+.display {
+    border: 3px solid #fff;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 0px 50px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    text-align: right;
+}
+
+.display span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.operators {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 0px 50px;
+    margin-bottom: 10px;
+    padding: 2px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operators button {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 25px;
+}
+
+.numbers {
+    max-width: 250px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 0px 50px;
+    margin-bottom: 10px;
+    padding: 2px 2px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.numbers button {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.numbers button:not(:nth-child(3n)) {
+    margin-right: 20px;
+}
+
+.nullDot {
+    max-width: 250px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 0px 50px;
+    margin-bottom: 10px;
+    padding: 2px;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.nullDot button {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    width: 48%;
+}
+
+.nullDot  button:not(:nth-child(2n)) {
+    margin-right: 5px;
+}
+
+
+.enter {
+    max-width: 250px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 0px 50px;
+    margin-bottom: 10px;
+    padding: 2px;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.enter button {
+    background-color: #0057fa;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-size: 25px;
+    width: 100%;
+    color: #fff;
+}
+
+.palitra h3 {
+    color: #0057fa;
+    margin-bottom: 3px;
+    margin: 0;
+    
+}
+
+.palitra p {
+
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.calculator_wrapper {
+    display: flex;
+    background: #fff;
+    padding: 50px 50px;
+    border-radius: 5px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 5px 40px;
+}
+
+.palitra {
+    border: 3px dashed #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 160px 50px;
+}
+
+.turner {
+    margin-bottom: 30px;
+}
+
+.turner button {
+    background-color: #fff;
+    border: 3px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 15px 20px;
+    font-size: 20px;
+    width: 100%;
+    color: #000;
+}
